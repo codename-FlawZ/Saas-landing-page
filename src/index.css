@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	.btn {
+		@apply bg-black text-white px-4 py-2 rounded-lg font-medium inline-flex items-center justify-center tracking-tight hover:bg-transparent hover:text-black transition-all duration-150;
+	}
+
+	.btn-primary {
+		@apply bg-black text-white;
+	}
+
+	.btn-text {
+		@apply text-black bg-transparent hover:bg-[#001E80]/90 hover:text-white transition-all duration-150;
+	}
+}
