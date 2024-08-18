@@ -15,6 +15,7 @@ const App = () => {
       <Hero />
       <LogoTicker />
       <ProductShowcase /> 
+      <Pricing />
     </main>
   )
 }
