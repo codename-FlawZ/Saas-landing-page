@@ -16,6 +16,7 @@ const App = () => {
       <LogoTicker />
       <ProductShowcase /> 
       <Pricing />
+      <Testimonials />
     </main>
   )
 }

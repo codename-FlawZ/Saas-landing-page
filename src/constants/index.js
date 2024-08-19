@@ -1,4 +1,18 @@
-const pricingTiers = [
+// Import Images
+import avatar1 from "../assets/avatar-1.png";
+import avatar2 from "../assets/avatar-2.png";
+import avatar3 from "../assets/avatar-3.png";
+import avatar4 from "../assets/avatar-4.png";
+import avatar5 from "../assets/avatar-5.png";
+import avatar6 from "../assets/avatar-6.png";
+import avatar7 from "../assets/avatar-7.png";
+import avatar8 from "../assets/avatar-8.png";
+import avatar9 from "../assets/avatar-9.png";
+
+
+// Pricing Tiers
+
+export const pricingTiers = [
 	{
 		title: "Free",
 		monthlyPrice: 0,
@@ -50,4 +64,61 @@ const pricingTiers = [
 	},
 ];
 
-export default pricingTiers
+// Testimonials
+
+export const testimonials = [
+	{
+		text: "As a seasoned designer always on the lookout for innovative tools,",
+		imageSrc: avatar1.src,
+		name: "Jamie Rivera",
+		username: "@jamietechguru00",
+	},
+	{
+		text: "Our team's productivity has skyrocketed since we started using this technology",
+		imageSrc: avatar2.src,
+		name: "Josh Smith",
+		username: "@jjsmith",
+	},
+	{
+		text: "This app has completely transformed how i manage my projects and dead",
+		image: avatar3.src,
+		name: "Morgan Lee",
+		username: "morganleehiz",
+	},
+	{
+		text: "I was amazed at how quickly we were able to integrate this app into",
+		image: avatar4.src,
+		name: "Casey Jordan",
+		username: "@caseyj",
+	},
+	{
+		text: "Planning and executing events has never been easier. This app helps",
+		image: avatar5.src,
+		name: "Taylor Kim",
+		username: "@taylorkimm",
+	},
+	{
+		text: "This customizablity and integration capabilities of this app are top-tier",
+		image: avatar6.src,
+		name: "Riley Smith",
+		username: "@rileysmith1",
+	},
+	{
+		text: "Adopting this app for our team has streamlined our project management",
+		image: avatar7.src, 
+		name: "Jordan Patels",
+		username: "@jpatelsdesign",
+	},
+	{
+		text: "With this app, we can easily assign tasks, track progress, and manage",
+		image: avatar8.src,
+		name: "Sam Dawson",
+		username: "@dawsontechtips",
+	},
+	{
+		text: "It's user-friendly interface and robust features support our diverse",
+		image: avatar9.src,
+		name: "Casey Harper",
+		username: "@casey09",
+	}
+];
