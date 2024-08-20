@@ -1,4 +1,5 @@
 // Import Images
+
 import avatar1 from "../assets/avatar-1.png";
 import avatar2 from "../assets/avatar-2.png";
 import avatar3 from "../assets/avatar-3.png";
@@ -8,7 +9,6 @@ import avatar6 from "../assets/avatar-6.png";
 import avatar7 from "../assets/avatar-7.png";
 import avatar8 from "../assets/avatar-8.png";
 import avatar9 from "../assets/avatar-9.png";
-
 
 // Pricing Tiers
 
@@ -69,55 +69,55 @@ export const pricingTiers = [
 export const testimonials = [
 	{
 		text: "As a seasoned designer always on the lookout for innovative tools,",
-		imageSrc: avatar1.src,
+		imageSrc: avatar1,
 		name: "Jamie Rivera",
 		username: "@jamietechguru00",
 	},
 	{
 		text: "Our team's productivity has skyrocketed since we started using this technology",
-		imageSrc: avatar2.src,
+		imageSrc: avatar2,
 		name: "Josh Smith",
 		username: "@jjsmith",
 	},
 	{
 		text: "This app has completely transformed how i manage my projects and dead",
-		image: avatar3.src,
+		imageSrc: avatar3,
 		name: "Morgan Lee",
 		username: "morganleehiz",
 	},
 	{
 		text: "I was amazed at how quickly we were able to integrate this app into",
-		image: avatar4.src,
+		imageSrc: avatar4,
 		name: "Casey Jordan",
 		username: "@caseyj",
 	},
 	{
 		text: "Planning and executing events has never been easier. This app helps",
-		image: avatar5.src,
+		imageSrc: avatar5,
 		name: "Taylor Kim",
 		username: "@taylorkimm",
 	},
 	{
 		text: "This customizablity and integration capabilities of this app are top-tier",
-		image: avatar6.src,
+		imageSrc: avatar6,
 		name: "Riley Smith",
 		username: "@rileysmith1",
 	},
 	{
 		text: "Adopting this app for our team has streamlined our project management",
-		image: avatar7.src, 
+		imageSrc: avatar7, 
 		name: "Jordan Patels",
 		username: "@jpatelsdesign",
 	},
 	{
 		text: "With this app, we can easily assign tasks, track progress, and manage",
-		image: avatar8.src,
+		imageSrc: avatar8,
 		name: "Sam Dawson",
 		username: "@dawsontechtips",
 	},
 	{
 		text: "It's user-friendly interface and robust features support our diverse",
-		image: avatar9.src,
+		imageSrc: avatar9,
 		name: "Casey Harper",
 		username: "@casey09",
 	}
